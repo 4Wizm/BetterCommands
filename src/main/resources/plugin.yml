@@ -1,0 +1,24 @@
+name: BetterCommands
+version: 1.0.0
+main: com.wizm.bettercommands.BetterCommands
+api-version: 1.8
+author: 4Wizm
+description: BetterCommands v1.0.0
+
+commands:
+  bettercommands:
+    description: Comando principale di BetterCommands
+    usage: /bettercommands reload
+    aliases: [bc]
+    permission: bettercommands.use.reload
+
+permissions:
+  bettercommands.use.reload:
+    description: Permette di ricaricare la configurazione
+    default: op
+  bettercommands.bypass:
+    description: Permette di eseguire comandi bloccati
+    default: op
+  bettercommands.notify:
+    description: Riceve notifiche sui tentativi bloccati
+    default: op

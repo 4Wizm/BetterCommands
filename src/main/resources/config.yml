@@ -1,0 +1,24 @@
+# Grazie per aver scaricato BetterCommands
+
+blocked-commands:
+  - "op"
+  - "deop"
+  - "stop"
+  - "reload"
+  - "save-all"
+  - "save-off"
+  - "save-on"
+  - "whitelist"
+  - "seed"
+  - "ban"
+
+allowed-commands:
+  - "help"
+  - "spawn"
+
+blocked-message: "&c&l! &7Non hai il permesso di eseguire questo comando!"
+
+port-bypass-prevention:
+  enabled: false
+  proxy-ip: "TuoProxyIP" # Incolla il tuo proxy qui!
+  kick-message: "&c&l! &7Accesso diretto non consentito. Usa l'indirizzo del proxy!"
